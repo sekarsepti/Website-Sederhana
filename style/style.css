@@ -1,0 +1,534 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+/*untuk header*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: auto;
+	position: relative;
+}
+
+.logo a{
+	font-size: 50px;
+	font-weight: 800;
+	float: left;
+	font-family: courier;
+	color: #5C33F6;
+}
+
+.menu {
+	float: right; 
+} 
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: fixed;
+	position: -webkit-sticky;
+	top: 0;
+	background-color: #ffffff;
+	z-index: 1;
+
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden; 
+}
+
+nav ul li {
+	float: left; 
+}
+
+nav ul li a{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+
+/*untuk beranda*/
+.pageberanda {
+	background:white;
+}
+
+#home img {
+	width: 450px;
+
+}
+
+article {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+.kolom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+.kolom .deskripsi  {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'comic sans ms';
+	color: #6677fa;
+}
+
+h2 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: #001dff;
+	width: 100%;
+	line-height: 50px;
+}
+
+.tbl-pink {
+	background: #6677fa;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-pink:hover{
+	background: #5C33F6;
+	text-decoration: none;
+}
+p {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+/*untuk tentang*/
+.pagetentang {
+	height: 500px;
+	background: #bfc6ff;
+}
+#tentang {
+	height: 500px;
+	background:  #bfc6ff;
+	text-align: center;
+}
+
+#tentang h2{
+	color: black;
+	font-size: 35px;
+}
+/*untuk servis*/
+.pageservis {
+	background:white;
+}
+#servis {
+	margin: auto;
+  padding-top: 100px;
+	position: relative;
+}
+
+#servis img {
+	width: 250px;
+}
+#servis h2 {
+	text-align: center;
+}
+#servis h1 {
+	font-size: 20px;
+}
+.servis1 {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+
+}
+.servis2 {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.servis2 img {
+	float: right;
+}
+
+.servis3 {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+/*untuk tim*/
+.pagetim {
+	height: 1050px;
+	background:#bfc6ff;
+}
+
+#tim {
+  padding-top: 50px;
+}
+.box:hover {
+	background: #ededed;
+}
+#tim h2 {
+	text-align: center;
+	padding-bottom: 0px;
+}
+#tim p {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.container {
+           display: flex;
+           text-align: center;
+
+       }
+.box {
+           width: 300px;
+           height: 300px;
+           background-color: #fff;
+           margin-right: 20px;
+           margin-left: 20px;
+           border-radius: 20px;
+           margin-bottom: 0px;
+           margin-top: 0px;
+           box-shadow: 0 5px 8px 0 grey;
+           border: 2px solid #5C33F6;
+       }
+
+.box img {
+	width: 120px;
+	height: 120px;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+
+.bingkai {
+	width: 180px;
+    height: 35px;
+    background-color: #001dff;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0px 10px;
+}
+
+.box p {
+	margin:10px;
+	font-size: 15px;
+}
+
+/*untuk kontak*/
+.pagekontak {
+	background:white;
+}
+  #bagiankontak {
+    padding-top: 30px;
+  }
+#icon img{
+width:  25px; 
+}
+#icon {
+  display:  inline-flex ;
+  margin:   auto;  
+}
+#icon p { 
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight:  bold;  
+}
+ .left-content {
+           /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
+           float: left;
+       }
+ 
+       .right-content {
+           /* digunakan untuk memindahkan posisi elemen ke sisi kanan container */
+           float: right;
+       }
+
+.kontak {
+  
+  border-radius: 5px;
+  width: 550px;
+  height: 530px;
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0, .1);
+  box-shadow :0 5px 10px rgba(0,0,0,.2);
+}
+ .kontak h2 { 
+      color: #001dff; 
+      
+      font-weight: bold;
+      font-size: 20px;
+}
+
+.kontak .border {
+  width: 70px;
+  height: 3px;
+  background: #001dff;
+  margin:1px auto;
+}
+
+ 
+
+.kontak input {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.kontak textarea {
+  height: 80px;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.kontak input,
+.kontak textarea {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #999;
+}
+
+.kontak textarea {
+  margin-bottom: 20px;
+}
+
+.kontak input[type="submit"]{
+  border-bottom:none;
+  cursor: pointer;
+  background: #001dff;
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.kontak form div {
+  position: relative;
+}
+
+.kontak input[type="submit"]:hover{
+  background: #95e1d3;
+}
+
+
+/*untuk asside*/
+
+.right-content img {
+  width: 130px;
+  border-radius: 200px;
+  margin-top: 30px;
+  margin-left: 85px;
+}
+
+.right-content {
+  width: 400px;
+  height: 530px;
+  background: #6677fa;
+  box-shadow :0 5px 10px rgba(0,0,0,.2);
+  text-align: left;
+}
+
+.right-content h1 {
+	text-align: center;
+}
+
+.biodata{
+  margin: 50px;
+}
+#judul {
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  margin: 8px 0px 8px 0px;
+}
+
+/*untuk footer*/
+footer {
+	width: 100%;
+	background-color: grey;
+	padding-bottom:0;
+	margin-bottom: 0;
+}
+
+footer .copy {
+	color:black;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+/*untuk drop down*/
+.tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.tombol-menu .garis {
+    height: 3px;
+    background-color: #3f72af;
+}
+
+@media screen and (max-width: 991.98px) {
+    .logo a {
+        display: inline;
+    }
+    .tombol-menu {
+        display: flex;
+    }
+    nav .menu {
+        display: none;
+    }
+    nav .menu.active {
+        display: flex;
+    }
+    nav ul li {
+        width:100%;
+        border-bottom:1px solid #333333;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    #servis img {
+    	width: 150px;
+    }
+
+    .pagetim {
+    	height: 2200px;
+      font-size: 115%;
+    }
+
+    .container {
+    	display: block;
+    }
+
+    .box {
+    	margin: auto;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    }
+    .bingkai {font-size: 115%;
+    }
+
+    article {
+    	margin-bottom: 0px;
+    }
+    #tentang {
+      height: 525px;
+      font-size: 115%;
+    }
+
+
+   .pagekontak {
+   	margin: auto;
+   }
+
+   #icon img{
+width: 20px; 
+}
+
+
+   .right-content,
+   aside {
+   	
+   	margin: 0;
+   	margin: auto;
+   	float: none;
+   }
+   .left-content {
+   	float: none;
+   	margin: auto;
+   }
+   .kontak {
+   	margin: auto;
+   	width: 450px;
+   }
+
+   .biodata {
+   	padding-top: 25px;
+   }
+
+
+    
+}
+
+
+
+  ;
